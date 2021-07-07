@@ -11,8 +11,8 @@
 
 		/**
 		 * Compares current object with another.
-		 * @param Comparable $o Object to compare with.
+		 * @param mixed $o Object to compare with.
 		 * @return int `-1` if current object is less than another, `1` in other case, `0` if objects are equal.
 		 */
-		public function compareTo(Comparable $o): int;
+		public function compareTo($o): int;
 	}
